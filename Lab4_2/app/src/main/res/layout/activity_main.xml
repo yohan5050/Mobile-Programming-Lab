@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yohan.org.lab4_2.MainActivity">
+
+    <TextView
+        android:id="@+id/tvBlue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#198ada"
+        android:text="@string/ba"
+        android:textSize="50sp"
+        android:textColor="#fdfdfc"
+        />
+
+    <TextView
+        android:id="@+id/tvGreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22da78"
+        android:text="@string/sa"
+        android:textSize="50sp"
+        android:textColor="#fdfdfc"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:text="@string/open"
+        />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:text="@string/close"
+        android:visibility="gone"
+        />
+
+</FrameLayout>
